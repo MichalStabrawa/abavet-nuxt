@@ -7,19 +7,22 @@
     </div>
     <ul class="nav-main">
       <li class="nav-item">
-        <a href="http://" target="_blank" rel="noopener noreferrer">Nav</a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
       </li>
       <li class="nav-item">
-        <a href="http://" target="_blank" rel="noopener noreferrer">Nav</a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">O Nas</a>
       </li>
       <li class="nav-item">
-        <a href="http://" target="_blank" rel="noopener noreferrer">Nav</a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">Oferta</a>
       </li>
       <li class="nav-item">
-        <a href="http://" target="_blank" rel="noopener noreferrer">Nav</a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">Dojazd</a>
       </li>
       <li class="nav-item">
-        <a href="http://" target="_blank" rel="noopener noreferrer">Nav</a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">Porady</a>
+      </li>
+        <li class="nav-item">
+        <a href="http://" target="_blank" rel="noopener noreferrer">Kontakt</a>
       </li>
     </ul>
   </nav>
