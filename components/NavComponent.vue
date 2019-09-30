@@ -7,13 +7,13 @@
     </div>
     <ul class="nav-main">
       <li class="nav-item">
-        <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+      <nuxt-link to="/">Home</nuxt-link>  
       </li>
       <li class="nav-item">
-        <a href="http://" target="_blank" rel="noopener noreferrer">O Nas</a>
+       <nuxt-link to="/about">O Nas</nuxt-link>
       </li>
       <li class="nav-item">
-        <a href="http://" target="_blank" rel="noopener noreferrer">Oferta</a>
+        <nuxt-link to="/offert">Oferta</nuxt-link>
       </li>
       <li class="nav-item">
         <a href="http://" target="_blank" rel="noopener noreferrer">Dojazd</a>
@@ -64,6 +64,15 @@ export default {};
         color: #000;
         text-decoration: none;
         font-size: 20px;
+        transition: all 0.3s;
+        font-weight: bold;
+
+        &:focus {
+          color: #6fb43f;
+        }
+        &:hover {
+          color: #6fb43f;
+        }
       }
     }
   }

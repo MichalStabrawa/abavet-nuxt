@@ -20,6 +20,12 @@
  695 424 252 <br/>
  <i class="fa fa-envelope" aria-hidden="true"> </i> lecznica@lekmedwet.pl
           </address>
+
+          <div class="social-wrapper">
+<span><i class="fa fa-2x fa-facebook-f"></i></span>
+          <span><i class="fa fa-2x fa-instagram"></i></span>
+          <span><i class="fa fa-2x fa-linkedin"></i></span>
+          </div>
         </div>
       </el-col>
       <el-col :span="8">
@@ -127,6 +133,21 @@ export default {};
     justify-content: space-between;
     padding-right: 20px;
   }
+}
+.social-wrapper {
+  padding-top: 30px;
+  display: flex;
+span {
+  width: 50px;
+  height: 50px;
+  background: #a4a7ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+ 
 }
 </style>
 
