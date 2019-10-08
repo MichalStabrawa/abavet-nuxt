@@ -22,7 +22,7 @@
         <a href="http://" target="_blank" rel="noopener noreferrer">Porady</a>
       </li>
         <li class="nav-item">
-        <a href="http://" target="_blank" rel="noopener noreferrer">Kontakt</a>
+      <nuxt-link to="/kontakt">Kontakt</nuxt-link>
       </li>
     </ul>
   </nav>
